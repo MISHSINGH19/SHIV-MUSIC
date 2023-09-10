@@ -124,7 +124,7 @@ async def gen_thumb(videoid, chat_id):
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
-                (260,1),
+                (240,0.5),
                 f"DNS MUSIC STARTED PLAYING NOW",
                 fill="red",
                 stroke_width=1,
@@ -155,7 +155,7 @@ async def gen_thumb(videoid, chat_id):
             pass
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
-            ((1280 - text_w) / 2, 700),
+            ((1280 - text_w) / 2, 690),
             f"Duration: {duration} Mins",
             fill="white",
             font=arial,
