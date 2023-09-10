@@ -113,7 +113,7 @@ async def gen_thumb(videoid, chat_id):
         width = int((1280 - 1) / 2)
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 2, 1380), mask=logo)
-        background.paste(x, (7100, 427), mask=x)
+        background.paste(x, (400, 427), mask=x)
         background.paste(image3, (0, 0), mask=image3)
 
         draw = ImageDraw.Draw(background)
@@ -264,8 +264,8 @@ async def gen_qthumb(videoid, chat_id):
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
-                (240, 25),
-                "ADDED TO QUEUE",
+                (240, 0.1),
+                "ADDED TO QUEUE IN DNS MUSIC",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
@@ -284,7 +284,7 @@ async def gen_qthumb(videoid, chat_id):
             if para[1]:
                 text_w, text_h = draw.textsize(f"{para[1]}", font=font)
                 draw.text(
-                    ((1280 - text_w) / 2, 6000),
+                    ((1280 - text_w) / 2, 685),
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
