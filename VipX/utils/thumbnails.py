@@ -125,7 +125,7 @@ async def gen_thumb(videoid, chat_id):
         try:
             draw.text(
                 (240, 0.1),
-                f"DNS MUSIC STARTED PLAYING NOW",
+                f"DNS MUSIC",
                 fill="red",
                 stroke_width=1,
                 stroke_fill="green",
@@ -265,7 +265,7 @@ async def gen_qthumb(videoid, chat_id):
         try:
             draw.text(
                 (240, 0.1),
-                "ADDED TO QUEUE IN DNS MUSIC",
+                "DNS MUSIC",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
@@ -284,7 +284,7 @@ async def gen_qthumb(videoid, chat_id):
             if para[1]:
                 text_w, text_h = draw.textsize(f"{para[1]}", font=font)
                 draw.text(
-                    ((1280 - text_w) / 2, 685),
+                    ((1280 - text_w) / 2, 6805),
                     f"{para[1]}",
                     fill="white",
                     stroke_width=1,
@@ -295,7 +295,7 @@ async def gen_qthumb(videoid, chat_id):
             pass
         text_w, text_h = draw.textsize(f"Duration: {duration} Mins", font=arial)
         draw.text(
-            ((1280 - text_w) / 2, 6600),
+            ((1280 - text_w) / 2, 685),
             f"Duration: {duration} Mins",
             fill="white",
             font=arial,
