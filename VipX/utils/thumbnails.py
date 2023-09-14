@@ -124,8 +124,8 @@ async def gen_thumb(videoid, chat_id):
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
-                (15, 0.1),
-                f"DNS MUSIC",
+                (20, 0.1),
+                f"DNS  MUSIC",
                 fill="white",
                 stroke_width=4,
                 stroke_fill="black",
@@ -264,7 +264,7 @@ async def gen_qthumb(videoid, chat_id):
         para = textwrap.wrap(title, width=32)
         try:
             draw.text(
-                (15, 0.1),
+                (20, 0.1),
                 "DNS MUSIC",
                 fill="white",
                 stroke_width=5,
