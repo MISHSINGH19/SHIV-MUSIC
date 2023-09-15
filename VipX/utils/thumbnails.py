@@ -85,9 +85,9 @@ async def gen_thumb(videoid, chat_id):
         bg = Image.open(f"VipX/assets/bg.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(0))
+        background = image2.filter(filter=ImageFilter.BoxBlur(0.1))
         enhancer = ImageEnhance.Brightness(background)
-        background = enhancer.enhance(0)
+        background = enhancer.enhance(0.1)
 
         image3 = changeImageSize(1280, 720, bg)
         image5 = image3.convert("RGBA")
