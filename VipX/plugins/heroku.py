@@ -272,7 +272,7 @@ async def update_(client, message, _):
                 try:
                     await app.send_message(
                         x,
-                        f"𝐈 𝐀𝐦 𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠...\n\n𝐘𝐨𝐮 𝐂𝐚𝐧 𝐉𝐨𝐢𝐧👇👇\n➣ @TG_FRIENDSS \n➣ @VIP_CREATORS",
+                        f"𝐈 𝐀𝐦 𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠...\n\n𝐘𝐨𝐮 𝐂𝐚𝐧 𝐉𝐨𝐢𝐧👇👇\n➣ @meri_ashhiqui \n➣ @meri_ashhiqui",
                     )
                     await remove_active_chat(x)
                     await remove_active_video_chat(x)
@@ -321,7 +321,7 @@ async def restart_(_, message):
         try:
             await app.send_message(
                 x,
-                f"𝐈 𝐀𝐦 𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠...\n\n𝐘𝐨𝐮 𝐂𝐚𝐧 𝐉𝐨𝐢𝐧👇👇\n➣ @TG_FRIENDSS \n➣ @VIP_CREATORS",
+                f"𝐈 𝐀𝐦 𝐔𝐩𝐝𝐚𝐭𝐢𝐧𝐠...\n\n𝐘𝐨𝐮 𝐂𝐚𝐧 𝐉𝐨𝐢𝐧👇👇\n➣ @meri_ashhiqui \n➣ @meri_ashhiqui",
             )
             await remove_active_chat(x)
             await remove_active_video_chat(x)
